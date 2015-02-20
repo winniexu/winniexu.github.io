@@ -51,6 +51,11 @@ body, html {
 	text-align: center;
 	background-color: #ECF0F1;
 }
+	.pic {
+		height: 280px;
+		margin-bottom: 30px;
+		overflow: hidden;
+	}
 
 #contact {
 	width: 100%;
@@ -89,7 +94,6 @@ body, html {
 	-webkit-border-radius: 150px;
 	-moz-bor
 	der-radius: 150px;
-	background: url(http://link-to-your/image.jpg) no-repeat;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
