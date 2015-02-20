@@ -1,0 +1,109 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin:0; 
+  padding:0;
+}
+
+.section-title {
+	margin-bottom: 50px;
+}
+
+
+#home {
+	background-color: #18BC9C;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#home .row {
+
+	padding: 200px 30px 30px 30px;
+	text-align: center;
+}
+	#home .row h1 {
+		color: white;
+		font-size: 56px;
+	}
+
+#skills {
+	width: 100%;
+	padding: 50px;
+	text-align: center;	
+}
+
+	.skill-descr {
+		margin-bottom: 50px
+	}
+	.skill-col-left {
+		margin-left: -25px;
+	}
+	.skill-col-left-inner{
+		margin-right: 25px;
+	}
+	#skills .inner{
+		padding-bottom: 50px;
+	}
+
+#work {
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+	background-color: #ECF0F1;
+}
+
+#contact {
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+}
+
+#footer {
+	background-color: #18BC9C;
+	height: 200px;
+	width: 100%;
+}
+	#footer i{
+		margin-top: 25px;
+		margin-right: 25px;
+		margin-bottom: 75px;
+	}
+
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-bor
+	der-radius: 150px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
+
+
+
+
+@media (max-width: 767px) {
+	.skill-col-left {
+		margin-left: 0;
+	}
+	.skill-col-left-inner{
+		margin-right: 0;
+	}
+
+}
